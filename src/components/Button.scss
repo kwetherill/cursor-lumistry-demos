@@ -1,0 +1,53 @@
+html {
+
+
+    .lds-button {
+        display: inline-block;
+        text-align: center;
+        height: 44px;
+        padding: 10px 16px;
+        min-width: 120px;
+        height: 44px;
+        color: #374D58;
+        background: white;
+        border: 1px solid #BCC8CE;
+        border-radius: 6px;
+        cursor: pointer;
+    
+        // fonts
+        font-family: 'Lato';
+    
+        .lds-icon {
+            position: relative;
+            top: 3px;
+            margin-right: 8px;
+        }
+    
+    
+        // modifiers
+        &.is-type-primary {
+            color: white;
+            background: #0093E8;
+            border-width: 0;
+        }
+    
+        &.is-width-auto {
+            min-width: none;
+            width: auto;
+        }
+    
+        &.is-mobilebottom {
+            position: absolute;
+            z-index: 2;
+            left: auto;
+            right: 20px;
+            top: auto;
+            bottom: 110px;
+            // top: 660px;
+        }
+    
+        &.is-shadow {
+            box-shadow: 0px 2px 8px -2px rgba(16, 24, 40, 0.7);
+        }
+    }
+}    
