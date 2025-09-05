@@ -1,0 +1,11 @@
+
+
+.lds-sprite {
+    display: block;
+
+    // types
+    &-type-sidenav {
+        background: none no-repeat;
+        background-size: 1200px 1000px;
+    }
+}
